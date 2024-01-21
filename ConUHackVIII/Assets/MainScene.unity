@@ -2593,6 +2593,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2366187912454758889, guid: 35a7ac19012bc8843b5263c22237b8ac, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.8980393
+      objectReference: {fileID: 0}
+    - target: {fileID: 2366187912454758889, guid: 35a7ac19012bc8843b5263c22237b8ac, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.854902
+      objectReference: {fileID: 0}
+    - target: {fileID: 2366187912454758889, guid: 35a7ac19012bc8843b5263c22237b8ac, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.7137255
+      objectReference: {fileID: 0}
     - target: {fileID: 2814369255680592033, guid: 35a7ac19012bc8843b5263c22237b8ac, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 19.039993
@@ -3036,14 +3048,1382 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 54434753700499928, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 69160199718633801, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 85196724787095130, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 85196724787095130, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 106630525078054748, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 106630525078054748, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 124933987201058383, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 163120349718935420, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 163120349718935420, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 185868730156655314, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 185868730156655314, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 202708905233269219, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 202708905233269219, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 274996069041482686, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 319822736905525037, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 319822736905525037, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 336028904299519317, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 336028904299519317, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 383034919730530368, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 383034919730530368, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 413336032501255188, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 413336032501255188, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 500715925596991840, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 500715925596991840, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 531327142735141343, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 531327142735141343, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 579654274657728089, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 735125918566323199, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 799849916108384066, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 813151779896971924, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 813151779896971924, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 838581400938409739, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 838581400938409739, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 854634785283423115, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 854634785283423115, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 855977351304853338, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 855977351304853338, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 945193973457417502, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 945193973457417502, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 999696157126803638, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093147909018305466, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1093147909018305466, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1132139643181910749, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136167660563493011, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143276478807548326, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155062786911286043, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1155062786911286043, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1176461629432386054, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196193339419626697, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1196193339419626697, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1309168530729774917, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1309168530729774917, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1342931523847920989, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419224569809269706, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1419224569809269706, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1461660841336256177, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1461660841336256177, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1487324739781862532, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1492691620664990927, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498269948356770116, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1501056057917232910, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1501056057917232910, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1526010512415375312, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1526010512415375312, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1533786124770669748, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1533786124770669748, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1632542571198827393, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1632542571198827393, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1673132188788604322, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706679036630919636, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1706679036630919636, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1788930455239607102, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835032230030986285, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1835032230030986285, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1866907665775822968, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1866907665775822968, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1873141154816262570, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1873141154816262570, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1876138734782765704, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1876138734782765704, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1888760572631003396, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1888760572631003396, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1900269336158016609, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1900269336158016609, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1913198139506898306, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936527417563286266, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937771195454163698, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1937771195454163698, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1972967837756311447, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1972967837756311447, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1997295204458628339, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 1997295204458628339, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2106612069292322669, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153322497758015744, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2153322497758015744, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2184509282808189526, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2203351493761310725, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2238089599665276325, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2238089599665276325, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2293149427290906738, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338871377874164664, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2375336998574610965, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2375336998574610965, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2376718822187702345, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2376718822187702345, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2385621683334340008, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2385621683334340008, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2443463261763477709, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2443463261763477709, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2499394435941332976, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2499394435941332976, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2523327632541140494, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569627819186336539, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2596891347091710734, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2632911991793958443, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2705919652755189249, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710975331170266338, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2713435011389940742, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2716076138801687455, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754244753949955674, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2754244753949955674, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2811192605472476510, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2811192605472476510, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2811431084652740004, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2811431084652740004, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2830577488111622989, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2830577488111622989, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2857740135235073893, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2857740135235073893, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2882040453910521946, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2882040453910521946, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2890352385176282514, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2890352385176282514, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2913621549402734069, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951235554474652168, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 2951235554474652168, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2963035066869781935, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3006781988302392809, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3006781988302392809, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3039422985824116166, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111694513352920085, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3111694513352920085, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3163529799603503715, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3163529799603503715, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3182039684417780039, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3182039684417780039, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3195393742028524064, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3195393742028524064, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3206706290165076258, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3206706290165076258, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3349025501243981839, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367683222721146401, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3367683222721146401, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3428870260388645580, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447135096374398916, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470976833198417073, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3470976833198417073, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3530189146773482693, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558961457378512094, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562662497081833415, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578690693283523715, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3644438982370310941, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: tempo
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692811491101998588, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3741247396401959233, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3741247396401959233, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3747908698120692917, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3747908698120692917, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3804999367948206430, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3850820624926017853, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3850820624926017853, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3853683718346663860, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3853683718346663860, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3900212103027195931, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3900212103027195931, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3948397805332850976, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 3948397805332850976, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3991552521180074081, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4008740457079446030, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029056085931422585, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4029056085931422585, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4142616794312494400, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156049788600253092, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165343978492342972, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183603907678846938, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4226035823999725068, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4226035823999725068, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4243088206755546649, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4243088206755546649, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4259625800942880186, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4259625800942880186, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4311111092484274900, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4311111092484274900, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4313762470945219118, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317260025807384985, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4317260025807384985, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4354117213121822541, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4354117213121822541, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4365467285516716062, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373258237174258667, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4373258237174258667, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4394451876680949068, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4478317853098990016, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480318668122394273, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4480318668122394273, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4485398642198899997, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4485398642198899997, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4506999507440446818, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4506999507440446818, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4516810617423612063, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524901137416906535, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4559353058061274412, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621548349023601921, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4641080643531330322, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642937625210233832, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4653381712676419094, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666724296319838505, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706887801406195734, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810755083421973066, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4810755083421973066, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4817235719228782035, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4817235719228782035, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4820655972126863437, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4820655972126863437, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4824590184240919214, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4824590184240919214, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4855215119743581506, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4855215119743581506, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4891693177254879335, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4891693177254879335, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4931331204504803394, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4931331204504803394, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4954544966909308247, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 4954544966909308247, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 5027305236182264252, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5075658822905283556, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081149331132989057, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5124645193563276788, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 5124645193563276788, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 5156902685806396933, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160517061333861465, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241518843258048904, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 5241518843258048904, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 5259916099525923968, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 5259916099525923968, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 5265009736022711875, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 5265009736022711875, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 5320818838274715757, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418783813274293356, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423410087172433675, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5470660679420137326, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496017907138351705, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515835397080276015, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5567858286523319178, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 5567858286523319178, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 5653673635064876003, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 5653673635064876003, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 5679336887681717157, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5693801010185020345, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 5693801010185020345, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 5726233092002593758, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737541528313850948, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5769081814081916461, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 5769081814081916461, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 5800961429512482101, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821705928032977986, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 5821705928032977986, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 5857886485693963863, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881899458510190444, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913290538400250360, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916584709104768881, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010068667294857977, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6027259158353911570, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6027259158353911570, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6076678587838718896, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6076678587838718896, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6089049394997415693, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199427058815095442, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6199427058815095442, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6204320008155113867, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6204320008155113867, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6251315962338685647, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6251315962338685647, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6287114743989861117, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311498928686330505, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6311498928686330505, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6353771988000002912, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6353771988000002912, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6432961686108934381, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434831167467636620, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6434831167467636620, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6436880587634307921, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458336803773151595, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6458336803773151595, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6468820350694807251, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6468820350694807251, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6478189104811815726, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559453343453683969, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599752799638635264, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6599752799638635264, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6619127844764550567, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6628863087314474578, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6628863087314474578, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6662523274201537526, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666118650723446741, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6680705879859133538, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6680705879859133538, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6683084785591608472, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6729529101254009238, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6729529101254009238, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6739998276702197845, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6759577274901606464, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779811348480283404, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6779811348480283404, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6819985583849155824, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6819985583849155824, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6829273178819192040, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 6829273178819192040, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6932330370201569171, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032886478377250604, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7045402612302500037, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_Name
       value: Beatmap - 115
       objectReference: {fileID: 0}
+    - target: {fileID: 7078500537915659788, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7122236552429654616, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141318758422595937, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188556464943612697, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258617263477798386, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 7258617263477798386, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7289277889275914544, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7330479388736675759, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349703234150415518, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7354907483782625552, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369471732990752790, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408676791964538883, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 7408676791964538883, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7466552925131054853, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 7466552925131054853, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7469878142816292756, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 7469878142816292756, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7512169921178721782, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543328100976193247, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 7543328100976193247, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7545369274616266730, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 7545369274616266730, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7556223819224634513, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 7556223819224634513, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
     - target: {fileID: 7579436590425217299, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3084,6 +4464,246 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7671092994900028242, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688929742809587450, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 7688929742809587450, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7792308978221337816, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814468576395409678, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 7814468576395409678, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7821125666770397462, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7833861234838906311, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7838532545685418311, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879192299061644723, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 7879192299061644723, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8025532163892357141, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 8025532163892357141, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8093841932666545134, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 8093841932666545134, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8125730730505009048, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200147098948490701, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224180795286547192, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234349230555373980, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296736951989840125, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8332184957970982664, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 8332184957970982664, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8340631388329789762, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344954050174597832, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 8344954050174597832, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8348593543915520643, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 8348593543915520643, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8419809067689110918, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448800528216928521, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8487103444197638929, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 8487103444197638929, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8590778024087374922, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 8590778024087374922, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8605439881836670295, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643121300603114117, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8675190881261689833, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8699219208490499646, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 8699219208490499646, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8735819001081842714, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 8735819001081842714, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8789005590710730313, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 8789005590710730313, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8815517006342926625, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 8815517006342926625, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8829608205093777228, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8938045802387364315, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997316770051988159, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9021886952382663213, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033388785985597256, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9034872568893916356, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9047566879509681342, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058110953818559670, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 9058110953818559670, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 9072001261707668430, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 9072001261707668430, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 9087255321304879713, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116310561506825780, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121347743115714534, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9203312838367206770, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 73679980}
+    - target: {fileID: 9203312838367206770, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: bloodParticles
+      value: 
+      objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
