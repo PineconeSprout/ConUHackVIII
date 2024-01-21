@@ -440,9 +440,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPosition: 0
-  highBird: {fileID: 8300000, guid: d85eb150f188e81408cb09db9c59070c, type: 3}
+  highBird: {fileID: 8300000, guid: 0195154cd9c9d5148ad686aaac141cad, type: 3}
   midBird: {fileID: 8300000, guid: 0195154cd9c9d5148ad686aaac141cad, type: 3}
-  lowBird: {fileID: 8300000, guid: d85eb150f188e81408cb09db9c59070c, type: 3}
+  lowBird: {fileID: 8300000, guid: 0195154cd9c9d5148ad686aaac141cad, type: 3}
   music: {fileID: 0}
   combo: 0
   collider1: {fileID: 1969914758}
@@ -929,6 +929,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107776430}
   m_CullTransparentMesh: 1
+--- !u!4 &186303320 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+  m_PrefabInstance: {fileID: 1876405955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &361382008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,7 +1557,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1077241587
 Transform:
   m_ObjectHideFlags: 0
@@ -2477,6 +2482,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1758376523 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7579436590425217299, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+  m_PrefabInstance: {fileID: 6487105916892323355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1758627752 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+  m_PrefabInstance: {fileID: 1980363214}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1770577056
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,6 +2740,67 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2814369255680592033, guid: 35a7ac19012bc8843b5263c22237b8ac, type: 3}
   m_PrefabInstance: {fileID: 1852791036}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1876405955
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1758376523}
+    m_Modifications:
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522119063534990015, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_Name
+      value: treeOBSTACLE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522119063534990015, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
 --- !u!1 &1969914758
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,6 +2975,75 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1001 &1980363214
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1758376523}
+    m_Modifications:
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1399655210064917566, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522119063534990015, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_Name
+      value: treeOBSTACLE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522119063534990015, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6fea5e988489504fa7b22f83ba3ab1a, type: 3}
 --- !u!1 &2133223964
 GameObject:
   m_ObjectHideFlags: 0
@@ -3196,6 +3341,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 285316663638779674, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 319822736905525037, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -3252,6 +3401,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 740040934201022220, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 799849916108384066, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -3288,6 +3441,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 900151260963434821, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.33
+      objectReference: {fileID: 0}
     - target: {fileID: 945193973457417502, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -3296,6 +3453,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 961492885860533752, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.09
+      objectReference: {fileID: 0}
     - target: {fileID: 999696157126803638, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -3331,6 +3492,10 @@ PrefabInstance:
     - target: {fileID: 1176461629432386054, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1178941807478205349, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.85
       objectReference: {fileID: 0}
     - target: {fileID: 1196193339419626697, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
@@ -3404,6 +3569,14 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 1562206039986766613, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569315992582835034, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.78
+      objectReference: {fileID: 0}
     - target: {fileID: 1632542571198827393, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -3427,6 +3600,14 @@ PrefabInstance:
     - target: {fileID: 1788930455239607102, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1816276737371079761, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 89.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1816276737371079761, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.81
       objectReference: {fileID: 0}
     - target: {fileID: 1835032230030986285, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
@@ -3508,6 +3689,14 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2073579285707680993, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073579285707680993, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieBottom
+      objectReference: {fileID: 0}
     - target: {fileID: 2106612069292322669, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -3520,6 +3709,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 2155344185218261893, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35.73
+      objectReference: {fileID: 0}
     - target: {fileID: 2184509282808189526, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -3595,6 +3788,10 @@ PrefabInstance:
     - target: {fileID: 2596891347091710734, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605423201200594567, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
       objectReference: {fileID: 0}
     - target: {fileID: 2632911991793958443, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
@@ -3675,6 +3872,14 @@ PrefabInstance:
     - target: {fileID: 2913621549402734069, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932677426958948803, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 85.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932677426958948803, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.77
       objectReference: {fileID: 0}
     - target: {fileID: 2951235554474652168, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
@@ -3784,6 +3989,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3598895162808397465, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
+      objectReference: {fileID: 0}
     - target: {fileID: 3644438982370310941, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: tempo
       value: 120
@@ -3812,6 +4021,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3841591170938280412, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
+      objectReference: {fileID: 0}
     - target: {fileID: 3850820624926017853, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -3828,6 +4041,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3880084036201449603, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
+      objectReference: {fileID: 0}
     - target: {fileID: 3900212103027195931, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -3844,9 +4061,21 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 3963949636803038223, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
+      objectReference: {fileID: 0}
     - target: {fileID: 3991552521180074081, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993493157385001309, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993493157385001309, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieBottom
       objectReference: {fileID: 0}
     - target: {fileID: 4008740457079446030, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
@@ -3860,6 +4089,14 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4125991959093120967, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125991959093120967, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.04
+      objectReference: {fileID: 0}
     - target: {fileID: 4142616794312494400, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -3867,6 +4104,14 @@ PrefabInstance:
     - target: {fileID: 4156049788600253092, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164341865285623448, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 87.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164341865285623448, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.87
       objectReference: {fileID: 0}
     - target: {fileID: 4165343978492342972, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
@@ -3900,6 +4145,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4294291359524817739, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.94
+      objectReference: {fileID: 0}
     - target: {fileID: 4311111092484274900, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -3920,6 +4169,18 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4319260809412501017, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 71.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4319260809412501017, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350219642695306061, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4354117213121822541, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -3932,6 +4193,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4366849367650468130, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4373258237174258667, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -3943,6 +4208,10 @@ PrefabInstance:
     - target: {fileID: 4394451876680949068, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4425767506388347357, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.1
       objectReference: {fileID: 0}
     - target: {fileID: 4478317853098990016, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
@@ -4004,9 +4273,21 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4689378888844088803, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689378888844088803, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.24
+      objectReference: {fileID: 0}
     - target: {fileID: 4706887801406195734, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801060362005168059, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28.46
       objectReference: {fileID: 0}
     - target: {fileID: 4810755083421973066, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
@@ -4056,6 +4337,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4927265769919626503, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4931331204504803394, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -4064,6 +4349,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 4938574309268679325, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieBottom
+      objectReference: {fileID: 0}
     - target: {fileID: 4954544966909308247, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -4099,6 +4388,14 @@ PrefabInstance:
     - target: {fileID: 5160517061333861465, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163324789335031598, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 34.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 5193762145048391129, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.79
       objectReference: {fileID: 0}
     - target: {fileID: 5241518843258048904, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
@@ -4144,6 +4441,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5500929948627862123, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 37.05
+      objectReference: {fileID: 0}
     - target: {fileID: 5515835397080276015, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -4156,6 +4457,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 5588581540124299943, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieBottom
+      objectReference: {fileID: 0}
     - target: {fileID: 5653673635064876003, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -4220,6 +4525,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5956742000169329170, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
+      objectReference: {fileID: 0}
     - target: {fileID: 6010068667294857977, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -4260,6 +4569,14 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6210510289295827203, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230647875851159830, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieBottom
+      objectReference: {fileID: 0}
     - target: {fileID: 6251315962338685647, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -4271,6 +4588,10 @@ PrefabInstance:
     - target: {fileID: 6287114743989861117, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6307559687411518133, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6311498928686330505, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
@@ -4323,6 +4644,18 @@ PrefabInstance:
     - target: {fileID: 6478189104811815726, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533190580838360647, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 83.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533190580838360647, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551911962140741202, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.13
       objectReference: {fileID: 0}
     - target: {fileID: 6559453343453683969, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
@@ -4392,6 +4725,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 6786992008852448598, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.1
+      objectReference: {fileID: 0}
     - target: {fileID: 6819985583849155824, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -4412,6 +4749,14 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6999094035536047633, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022722520996769559, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.52
+      objectReference: {fileID: 0}
     - target: {fileID: 7032886478377250604, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -4428,9 +4773,17 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7124485316414835112, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.71
+      objectReference: {fileID: 0}
     - target: {fileID: 7141318758422595937, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187299970721615029, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
       objectReference: {fileID: 0}
     - target: {fileID: 7188556464943612697, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
@@ -4447,6 +4800,10 @@ PrefabInstance:
     - target: {fileID: 7289277889275914544, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328233898570351711, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.94
       objectReference: {fileID: 0}
     - target: {fileID: 7330479388736675759, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
@@ -4472,6 +4829,14 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7444674697806483860, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 80.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454800817841305685, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieBottom
+      objectReference: {fileID: 0}
     - target: {fileID: 7466552925131054853, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -4488,6 +4853,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7484184581668248987, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieBottom
+      objectReference: {fileID: 0}
     - target: {fileID: 7512169921178721782, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -4516,6 +4885,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7577792268823528219, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
+      objectReference: {fileID: 0}
     - target: {fileID: 7579436590425217299, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4556,6 +4929,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7621532303963785039, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
+      objectReference: {fileID: 0}
     - target: {fileID: 7671092994900028242, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -4568,6 +4945,18 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7730303644769458911, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 71.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730303644769458911, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7777261172446101265, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.27
+      objectReference: {fileID: 0}
     - target: {fileID: 7792308978221337816, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -4600,6 +4989,18 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 7907022410988185941, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieBottom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946009635667447532, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieBottom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008753852346469361, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.82
+      objectReference: {fileID: 0}
     - target: {fileID: 8025532163892357141, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -4636,6 +5037,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8330117413508827818, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
+      objectReference: {fileID: 0}
     - target: {fileID: 8332184957970982664, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -4644,6 +5049,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8339947648843037569, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.98
+      objectReference: {fileID: 0}
     - target: {fileID: 8340631388329789762, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -4716,6 +5125,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8770959821822324959, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8789005590710730313, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -4724,6 +5137,10 @@ PrefabInstance:
       propertyPath: bloodParticles
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
+    - target: {fileID: 8807161474384886095, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 78.68
+      objectReference: {fileID: 0}
     - target: {fileID: 8815517006342926625, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -4788,6 +5205,18 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9132973294934450250, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9151351461254516206, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 9162527532997295301, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      propertyPath: m_TagString
+      value: ZombieTop
+      objectReference: {fileID: 0}
     - target: {fileID: 9203312838367206770, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
       propertyPath: player
       value: 
@@ -4797,8 +5226,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7937338753336838912, guid: 1a3cc7f3c3e89c845acf7c22b21411b3, type: 3}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 304705407247360464, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7579436590425217299, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 1758627752}
+    - targetCorrespondingSourceObject: {fileID: 7579436590425217299, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
+      insertIndex: 23
+      addedObject: {fileID: 186303320}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa35ba8dfa5322a4a88c92cc272cdde6, type: 3}
 --- !u!1660057539 &9223372036854775807
