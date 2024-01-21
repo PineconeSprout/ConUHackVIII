@@ -8,6 +8,8 @@ TagManager:
   - ZombieTop
   - ZombieMiddle
   - ZombieBottom
+  - endWall
+  - player
   layers:
   - Default
   - TransparentFX
@@ -51,11 +53,11 @@ TagManager:
   - name: trees
     uniqueID: 4281320289
     locked: 0
-  - name: Player
-    uniqueID: 917549383
-    locked: 0
   - name: Zombies
     uniqueID: 1324170953
+    locked: 0
+  - name: Player
+    uniqueID: 917549383
     locked: 0
   - name: top trees
     uniqueID: 2128334229
