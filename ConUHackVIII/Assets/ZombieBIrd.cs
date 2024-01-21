@@ -25,12 +25,18 @@ public class ZombieBIrd : MonoBehaviour
         if (other != null && other.tag == "endWall")
         {
             Debug.Log("here");
-            player.GetComponent<Soldier>().health--;
+            if (player.GetComponent<Soldier>().health > 0)
+            {
+                player.GetComponent<Soldier>().health--;
+            }
             Destroy(gameObject);
         } else if (other != null && other.tag == "player")
         {
             Instantiate(bloodParticles, transform.position, transform.rotation);
-            player.GetComponent<Soldier>().health--;
+            if (player.GetComponent<Soldier>().health > 0)
+            {
+                player.GetComponent<Soldier>().health--;
+            }
             Destroy(gameObject);
         }
     }

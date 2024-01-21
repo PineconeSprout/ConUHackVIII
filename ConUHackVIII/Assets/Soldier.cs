@@ -24,11 +24,11 @@ public class Soldier : MonoBehaviour
     [SerializeField] GameObject collider2;
     [SerializeField] GameObject collider3;
     [SerializeField] GameObject bloodParticles;
-    [SerializeField] GameObject shotParticle;
     [SerializeField] GameObject gameOverScreen;
     [SerializeField] GameObject gameOverSnow;
     [SerializeField] GameObject scoreShow;
     [SerializeField] GameObject scoreShow2;
+    [SerializeField] GameObject healthShow;
 
 
 
@@ -51,6 +51,7 @@ public class Soldier : MonoBehaviour
         }
 
         scoreShow.GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
+        healthShow.GetComponent<TMPro.TextMeshProUGUI>().text = health.ToString() + "/3";
 
         if (isMoving)
         {
@@ -88,7 +89,7 @@ public class Soldier : MonoBehaviour
                     ColliderManager colliderManager3 = collider3.GetComponent<ColliderManager>();
                     if (colliderManager3.canBeShot == true)
                     {
-                        Instantiate(shotParticle, transform.position, transform.rotation);
+                        
                         Instantiate(bloodParticles, collider3.transform.position, collider3.transform.rotation);
                         Destroy(colliderManager3.currentZombie);
                         combo++;
@@ -101,7 +102,7 @@ public class Soldier : MonoBehaviour
                     ColliderManager colliderManager2 = collider2.GetComponent<ColliderManager>();
                     if (colliderManager2.canBeShot == true)
                     {
-                        Instantiate(shotParticle, transform.position, transform.rotation);
+                        
                         Instantiate(bloodParticles, collider2.transform.position, collider2.transform.rotation);
                         Destroy(colliderManager2.currentZombie);
                         combo++;
@@ -113,7 +114,7 @@ public class Soldier : MonoBehaviour
                     ColliderManager  colliderManager1 = collider1.GetComponent<ColliderManager>();
                     if (colliderManager1.canBeShot == true)
                     {
-                        Instantiate(shotParticle, transform.position, transform.rotation);
+                        
                         Instantiate(bloodParticles, collider1.transform.position, collider1.transform.rotation);
                         Destroy(colliderManager1.currentZombie);
                         combo++;

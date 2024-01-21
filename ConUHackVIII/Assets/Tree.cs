@@ -28,7 +28,10 @@ public class Tree : MonoBehaviour
         else if (other != null && other.tag == "player")
         {
             Instantiate(bloodParticles, transform.position, transform.rotation);
-            player.GetComponent<Soldier>().health--;
+            if (player.GetComponent<Soldier>().health > 0)
+            {
+                player.GetComponent<Soldier>().health--;
+            }
         }
     }
 }
