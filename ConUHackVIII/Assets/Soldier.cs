@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEngine.ParticleSystem;
+using TMPro;
 
 public class Soldier : MonoBehaviour
 {
@@ -24,8 +25,13 @@ public class Soldier : MonoBehaviour
     [SerializeField] GameObject collider3;
     [SerializeField] GameObject bloodParticles;
     [SerializeField] GameObject shotParticle;
+    [SerializeField] GameObject gameOverScreen;
+    [SerializeField] GameObject gameOverSnow;
+    [SerializeField] GameObject scoreShow;
+    [SerializeField] GameObject scoreShow2;
 
-    
+
+
     [SerializeField] public float score = 0;
     [SerializeField] public int health = 3;
 
@@ -44,7 +50,7 @@ public class Soldier : MonoBehaviour
             scoreGoal *= 2;
         }
 
-
+        scoreShow.GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
 
         if (isMoving)
         {
@@ -116,6 +122,14 @@ public class Soldier : MonoBehaviour
                     }
                     break;
             }
+        }
+
+        if (health <= 0)
+        {
+
+            gameOverScreen.SetActive(true);
+            gameOverSnow.SetActive(true);
+            scoreShow2.GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
         }
     }
 
