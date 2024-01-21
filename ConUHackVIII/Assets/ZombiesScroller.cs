@@ -6,7 +6,7 @@ public class ZombiesScroller : MonoBehaviour
 {
 
 
-    public float tempo = 180;
+    public float tempo = 180f;
     public bool hasStarted = false;
     // Start is called before the first frame update
     void Start()
@@ -18,6 +18,6 @@ public class ZombiesScroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position -= new Vector3(tempo * Time.deltaTime, 0f, 0f);
+        transform.position -= new Vector3(Soldier.speed * tempo * Time.deltaTime, 0f, 0f);
     }
 }

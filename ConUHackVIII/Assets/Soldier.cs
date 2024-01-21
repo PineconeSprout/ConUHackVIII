@@ -8,30 +8,47 @@ public class Soldier : MonoBehaviour
 {
 
     [SerializeField] int characterPosition = 1;
+    [SerializeField] AudioClip highBird;
+    [SerializeField] AudioClip midBird;
+    [SerializeField] AudioClip lowBird;
+    [SerializeField] AudioClip music;
+    [SerializeField] public static float speed = 1f;
+    [SerializeField] public int combo = 0;
+
     float[] position = { -3f, 0f, 3f };
     float moveDirection;
     bool isMoving = false;
-
+    float scoreGoal = 500;
     [SerializeField] GameObject collider1;
     [SerializeField] GameObject collider2;
     [SerializeField] GameObject collider3;
     [SerializeField] GameObject bloodParticles;
     [SerializeField] GameObject shotParticle;
 
-    [SerializeField] public int score = 0;
+    
+    [SerializeField] public float score = 0;
     [SerializeField] public int health = 3;
 
     void Start()
     {
         characterPosition = 1;
+
+
     }
 
     void Update()
     {
+        if(score >= scoreGoal)
+        {
+            speed += 0.01f;
+            scoreGoal *= 2;
+        }
+
+
 
         if (isMoving)
         {
-            transform.position += new Vector3(0f, 10f * moveDirection * Time.deltaTime, 0f);
+            transform.position += new Vector3(0f, 10f * moveDirection * Time.deltaTime * speed, 0f);
             if ((moveDirection > 0 && transform.position.y >= position[characterPosition])
                 || (moveDirection < 0 && transform.position.y <= position[characterPosition]))
             {
@@ -40,7 +57,7 @@ public class Soldier : MonoBehaviour
 
         }
 
-        if ((Input.GetKeyDown(KeyCode.W)) && !isMoving && characterPosition < 2)
+        if (((Input.GetKeyDown(KeyCode.W)) || (Input.GetKeyDown(KeyCode.JoystickButton3))) && !isMoving && characterPosition < 2)
         {
             isMoving = true;
             moveDirection = 1f;
@@ -48,7 +65,7 @@ public class Soldier : MonoBehaviour
 
 
         }
-        else if ((Input.GetKeyDown(KeyCode.S)) && !isMoving && characterPosition > 0)
+        else if (((Input.GetKeyDown(KeyCode.S)) || (Input.GetKeyDown(KeyCode.JoystickButton1))) && !isMoving && characterPosition > 0)
         {
             isMoving = true;
             moveDirection = -1f;
@@ -56,7 +73,7 @@ public class Soldier : MonoBehaviour
         }
 
 
-        if ((Input.GetKeyDown(KeyCode.Space)) && !isMoving)
+        if (((Input.GetKeyDown(KeyCode.Space)) || (Input.GetKeyDown(KeyCode.JoystickButton7))) && !isMoving)
         {
             Debug.Log(characterPosition);
             switch (characterPosition)
@@ -68,7 +85,9 @@ public class Soldier : MonoBehaviour
                         Instantiate(shotParticle, transform.position, transform.rotation);
                         Instantiate(bloodParticles, collider3.transform.position, collider3.transform.rotation);
                         Destroy(colliderManager3.currentZombie);
-                        score++;
+                        combo++;
+                        score += 100f * (1f + combo*0.02f);
+                        AudioSource.PlayClipAtPoint( highBird , transform.position, 5f);
                     }
                         
                     break;
@@ -79,7 +98,9 @@ public class Soldier : MonoBehaviour
                         Instantiate(shotParticle, transform.position, transform.rotation);
                         Instantiate(bloodParticles, collider2.transform.position, collider2.transform.rotation);
                         Destroy(colliderManager2.currentZombie);
-                        score++;
+                        combo++;
+                        score += 100f * (1f + combo * 0.02f);
+                        AudioSource.PlayClipAtPoint(midBird, transform.position, 5f);
                     }
                     break;
                 case 2:
@@ -89,7 +110,9 @@ public class Soldier : MonoBehaviour
                         Instantiate(shotParticle, transform.position, transform.rotation);
                         Instantiate(bloodParticles, collider1.transform.position, collider1.transform.rotation);
                         Destroy(colliderManager1.currentZombie);
-                        score++; 
+                        combo++;
+                        score += 100f * (1f + combo * 0.02f);
+                        AudioSource.PlayClipAtPoint(lowBird, transform.position, 5f);
                     }
                     break;
             }
